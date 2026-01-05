@@ -1,7 +1,5 @@
 import os
 
-from pandas.core.interchange.dataframe_protocol import DataFrame
-
 from word_tree_node import Node
 import pandas as pd
 
