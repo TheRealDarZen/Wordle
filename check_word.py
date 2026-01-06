@@ -1,4 +1,4 @@
-from create_tree import tree
+from save_load_tree import imported_tree
 
 def check_word(word, curr_tree):
     if not word:
@@ -14,4 +14,4 @@ def check_word(word, curr_tree):
 
 if __name__ == '__main__':
     word = 'A-and-R'
-    print(check_word(word, tree))
+    print(check_word(word, imported_tree))
